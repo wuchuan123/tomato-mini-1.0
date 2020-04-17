@@ -4,7 +4,7 @@ const { http } = require('../../lib/http.js');
 Page({
   timer: null,
   data: {
-    defalutSecond: 2,
+    defalutSecond: 1500,
     time: "",
     timerStatus: 'stop', 
     confirmVisible: false,
